@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <div class="bar bar-subheader ">
+    <h1 class="title">Welcome to ionic</h1>
+  </div>
+
+
+  <button ion-button secondary menuToggle>Toggle Menu</button>
+  
+  <a href="#" onclick="window.open('https://ionicframework.com/docs/', '_system', 'location=yes'); return false;"><button ion-button full>Click here to ionic framework documentation</button></a>
+
+
+  <ion-list radio-group>
+    <ion-list-header>
+      Choose a programming Language
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>Java</ion-label>
+      <ion-radio checked="true" value="go"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Python</ion-label>
+      <ion-radio value="rust"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Swift</ion-label>
+      <ion-radio value="python"></ion-radio>
+    </ion-item>
+  </ion-list>
+
+  <ion-item>
+    <ion-label>What do you want to be?</ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>ios developeer</ion-label>
+    <ion-checkbox color="dark" checked="true"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>android developer</ion-label>
+    <ion-checkbox disabled="true"></ion-checkbox>
+  </ion-item>
+  <a href=""><button ion-button full>Submit</button></a>
+  </ion-content>
+
